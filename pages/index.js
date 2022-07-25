@@ -15,7 +15,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoInstagram, IoLogoGithub, IoLogoDiscord } from 'react-icons/io5'
+import { IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -32,18 +32,18 @@ const Home = () => {
           bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
           p={3}
           mb={6}
-          text-align="center"
+          textAlign="center"
           css={{ backdropFilter: 'blur(10px)' }}
         >
-          Hello, I'm a full-stack developer based in Finland!
+          Hello, I&apos;m a software developer based in Finland!
         </Box>
 
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
-            <Heading as="h2" variant="page-title">
+            <Heading as="h2" variant="page-title" >
               Kami Nasri
             </Heading>
-            <Paragraph>Developer</Paragraph>
+            <Paragraph>Developer / Rocket League Coach / Kanaliiga Organiser</Paragraph>
           </Box>
             <Box 
               flexShrink={0} 
@@ -62,7 +62,7 @@ const Home = () => {
                 overflow="hidden"
               >
                 <ProfileImage
-                  src="/images/snufkin.jpg"
+                  src="/images/avatar.jpg"
                   alt="Profile image"
                   borderRadius="full"
                   width="100%"
@@ -76,7 +76,14 @@ const Home = () => {
           <Heading as="h3" variant="section-title">
             Work
           </Heading>
-          <Paragraph>Kerro vähän mitä duunaat</Paragraph>
+          <Box>
+          <Paragraph>
+          Kami is a software developer based in Finland with a passion for building software. 
+          Building many products for various clients he has a deep understanding for launching products, 
+          from planning and developing all the way to solving real-life problems with code. 
+          During his free-time, he loves hanging out with his cats or relax while playing video games or guitar.
+          </Paragraph>
+          </Box>
           <Box align="center" my={4}>
             <NextLink href="/works">
               <Button rightIcon={ <ChevronRightIcon /> } colorScheme="teal">
@@ -92,19 +99,35 @@ const Home = () => {
           </Heading>
           <BioSection>
             <BioYear>1992</BioYear>
-            Born in blaablaablaa, Afkanistan
+            Hello world!
           </BioSection>
           <BioSection>
-            <BioYear>201X</BioYear>
-            Completed Ph.D
+            <BioYear>2011</BioYear>
+            Electronics and ICT professional certificate
           </BioSection>
           <BioSection>
-            <BioYear>202X</BioYear>
-            Season 13 Grand Champion
+            <BioYear>2013</BioYear>
+            Game developer @ Mobilive Ltd
           </BioSection>
           <BioSection>
-            <BioYear>202X to present</BioYear>
-            Solita
+            <BioYear>2015</BioYear>
+            Co-Founder &amp; Game Developer @ Taphold Oy
+          </BioSection>
+          <BioSection>
+            <BioYear>2016</BioYear>
+            Bachelor of Engineering (Software Engineering)
+          </BioSection>
+          <BioSection>
+            <BioYear>2016</BioYear>
+            Software Developer @ Cybercom Group
+          </BioSection>
+          <BioSection>
+            <BioYear>2018</BioYear>
+            Developer @ Frantic
+          </BioSection>
+          <BioSection>
+            <BioYear>2021</BioYear>
+            Software Designer @ Solita
           </BioSection>
         </Section>
 
@@ -113,7 +136,7 @@ const Home = () => {
             ♥️
           </Heading>
           <Paragraph>
-            Cats, Games, Playing Gitara etc...
+            Cats (Animals in general), Hiking, Board Games, Video Games, Playing Guitar.
           </Paragraph>
         </Section>
 
@@ -121,23 +144,23 @@ const Home = () => {
           <Heading as="h3" variant="section-title">Find me on:</Heading>
           <List>
             <ListItem>
-              <Link href="https://www.google.com">
+              <Link href="https://https://github.com/Snufkindee">
                 <Button variant="ghost" colorScheme="teal" leftIcon={<IoLogoGithub />} >
-                  @SnufkinD
+                  @Snufkindee
                 </Button>
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://www.google.com">
-                <Button variant="ghost" colorScheme="teal" leftIcon={<IoLogoInstagram />} >
+              <Link href="https://www.linkedin.com/in/kami-nasri">
+                <Button variant="ghost" colorScheme="teal" leftIcon={<IoLogoLinkedin />} >
                   @Kami Nasri
                 </Button>
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://www.google.com">
-                <Button variant="ghost" colorScheme="teal" leftIcon={<IoLogoDiscord />} >
-                  @Snufkin D
+              <Link href="https://www.instagram.com/snufkindee/">
+                <Button variant="ghost" colorScheme="teal" leftIcon={<IoLogoInstagram />} >
+                  @Snufkindee
                 </Button>
               </Link>
             </ListItem>

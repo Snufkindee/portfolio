@@ -12,6 +12,7 @@ export const CatSpinner = () => (
   />
 )
 
+// eslint-disable-next-line react/display-name
 export const CatContainer = forwardRef(({ children }, ref) => (
   <Box
     ref={ref}
