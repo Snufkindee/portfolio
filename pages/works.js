@@ -31,7 +31,7 @@ const Works = () => {
                     </Section>
                     <Section delay={0.2}>
                         <WorkGridItem id="rng-steam-game" title="Random Steam Game" thumbnail={noImageThumb}>
-                            Dice a roll for what to play from your Steam Library
+                            Roll a dice for what to play from your Steam Library
                         </WorkGridItem>
                     </Section>
                     <Section delay={0.2}>
