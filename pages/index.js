@@ -144,7 +144,7 @@ const Home = () => {
           <Heading as="h3" variant="section-title">Find me on:</Heading>
           <List>
             <ListItem>
-              <Link href="https://https://github.com/Snufkindee">
+              <Link href="https://github.com/Snufkindee">
                 <Button variant="ghost" colorScheme="teal" leftIcon={<IoLogoGithub />} >
                   @Snufkindee
                 </Button>
