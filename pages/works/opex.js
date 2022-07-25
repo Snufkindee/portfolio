@@ -36,12 +36,6 @@ import {
             <span>Unity</span>
           </ListItem>
           <ListItem>
-            <Meta>Source</Meta>
-            <Link href="https://bitbucket.org/Eg9plant/opepeli/src/master/">
-              Bitbucket
-            </Link>
-          </ListItem>
-          <ListItem>
             <Meta>Last update</Meta>
             <span>05.04.2019</span>
           </ListItem>

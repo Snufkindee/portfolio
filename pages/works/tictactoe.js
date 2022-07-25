@@ -37,7 +37,7 @@ import {
           </ListItem>
           <ListItem>
             <Meta>Source</Meta>
-            <Link href="https://github.com/Snufkindee/whee">
+            <Link href="https://github.com/Snufkindee/tic-tac-toe">
               Github
             </Link>
           </ListItem>
