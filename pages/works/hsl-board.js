@@ -38,7 +38,7 @@ import {
           </ListItem>
           <ListItem>
             <Meta>Source</Meta>
-            <Link href="https://www.google.com">
+            <Link href="https://github.com/Snufkindee/hsl-board">
               Github
             </Link>
           </ListItem>
