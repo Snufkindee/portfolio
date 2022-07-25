@@ -23,7 +23,7 @@ import {
         </P>
         <UnorderedList ml={4} my={4}>
           <ListItem>LibGDX was my go-to framework for developing games</ListItem>
-          <ListItem>This project required more on the math problems rather than developing</ListItem>
+          <ListItem>This project required more time on the math problems rather than developing</ListItem>
         </UnorderedList>
   
         <List ml={4} my={4}>

@@ -22,7 +22,7 @@ import {
         </P>
         <UnorderedList ml={4} my={4}>
           <ListItem>Made for an interview task</ListItem>
-          <ListItem>Future Kami would made this with React rather than Angular</ListItem>
+          <ListItem>Nowadays would make this project with other framework than Angular</ListItem>
           <ListItem>First web game</ListItem>
         </UnorderedList>
   
