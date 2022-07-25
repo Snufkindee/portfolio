@@ -18,11 +18,12 @@ import {
           Opex <Badge>2019</Badge>
         </Title>
         <P>
-          Mobile game that tests your reflexes and &apos;teaching&apos; skills
+          Mobile game that tests your reflexes and &apos;teaching&apos; skills.
         </P>
         <UnorderedList ml={4} my={4}>
           <ListItem>Made for a friend for his birthday</ListItem>
           <ListItem>Fun project that was made with a tight deadline</ListItem>
+          <ListItem>Art by the legend himself, Elias Rantanen</ListItem>
         </UnorderedList>
   
         <List ml={4} my={4}>
