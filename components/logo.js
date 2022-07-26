@@ -19,7 +19,7 @@ const LogoBox = styled.span`
 `
 
 const Logo = () => {
-    const pawPrintImg = `/images/footprint${useColorModeValue('', '-dark')}.png`;
+    const pawPrintImg = `/images/${useColorModeValue('sulevi', 'Eino')}_paw.png`;
 
     return(
         <Link href='/'>
