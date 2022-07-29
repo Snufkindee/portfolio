@@ -20,6 +20,11 @@ const Works = () => {
 
                 <SimpleGrid columns={[1,1,2]} gap={6}>
                     <Section>
+                        <WorkGridItem id="finstagram" title="Finstagram" thumbnail={noImageThumb}>
+                            Instagram clone
+                        </WorkGridItem>
+                    </Section>
+                    <Section>
                         <WorkGridItem id="hsl-board" title="HSL Board" thumbnail={noImageThumb}>
                             Displays bus schedules from specific stops in HSL fashion
                         </WorkGridItem>
